@@ -1,25 +1,43 @@
 import logo from './logo.svg';
 import './App.css';
+import Investments from './Investments'
+import moment from 'moment'
+import { useEffect, useState } from 'react';
+import news from './data'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const [todaysNews, settodaysNews] = useState([])
+  const [loading, setLoading] = useState(true)
+
+  const today = moment().format("DD/MM/YYYY");
+
+  const filterDataByDate = (news) => {
+    if (news.date === today) {
+      return news
+    }
+  }
+
+  const fetchTodaysNews = async () => {    
+    setLoading(true)
+    const todaysData = news.filter(filterDataByDate)
+    settodaysNews(todaysData)
+    setLoading(false)
+  }
+
+  useEffect(() => {
+    fetchTodaysNews();
+  }, [])
+  
+  if (loading) {
+    return <main>
+      <h3>Loading...</h3>
+    </main>
+  }
+
+  return <main>
+    <h1>NFT Dao News Letter</h1>
+    <Investments/>
+  </main>;
 }
 
 export default App;
