@@ -65,8 +65,8 @@ export const titles = [
       zipcys: "Zipcy's Supernormal"
     },
     security: "Security Issues/Updates",
-    mints: "Upcoming NFT drops/mints",
-    days : {
+    upcomingMints: "Upcoming NFT drops/mints",
+    mints : {
       today : "Todays Mints",
       tomorrow : "Tomorrows Mints",
       dayAfterTomorrow : "Day after Tomorrow/Upcoming Mints"
