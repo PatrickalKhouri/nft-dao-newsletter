@@ -3,16 +3,16 @@ import React from 'react';
 const Investments = ({investmentsUpdates, investmentsUpdatesHeader}) => {
 
   return (<section>
-    <h5>Investments</h5>
+    <h2>Investments</h2>
     {Object.keys(investmentsUpdates).map((keyName) => {
       if (investmentsUpdates[keyName] === '') {
         return null
       }
-      const arrayText = investmentsUpdates[keyName].split('\n')
+      const investmentsArray = investmentsUpdates[keyName].split('\n')
       return (
         <>
         <h3>{investmentsUpdatesHeader[keyName]}</h3>
-        {arrayText.map((line) => {
+        {investmentsArray.map((line) => {
           return <p>{line}</p>
         })}
         </>
