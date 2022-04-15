@@ -1,8 +1,8 @@
 const news = [
   {
   id: '1',
-  date: '09/04/2022',
-  investments_updates: { 
+  date: '15/04/2022',
+  investmentsUpdates: { 
     anonymous: "",
     bayc: "HACK DO NOT MINT ANYTHING",
     bomb: "",
@@ -18,9 +18,9 @@ const news = [
   mints: {
     today: "Star Frens -- https://www.starfrens.io/ -- April 9th -- 3000 total -- ETh 0.03 Pre/ 0.04 Pub\nVault X DAO -- https://thevault-x.com/ -- April 9th 7pm EST -- 3333 total -- SOL 0.9\nFurrSols -- https://furrsols.io/ -- April 9th 8am EST -- 8888 total -- SOL 1 Pre/1.2 pub\nMutant Money Society -- https://www.mutantmoney.art -- April 9th 1pm EST -- 9999 total -- ETH 0.088\nBatty Banties -- https://www.battybanties.com/ -- 09 Apr 2022-5pm EST -- 11101 -- ETH 0.02 Pre/0.04 Pub",
     tomorrow: "Pig Gang -- https://piggang.io -- April 10th 11am EST -- 10000 total -- ETh 0.025\nHAKI NFT -- https://www.hakinft.io -- April 10th 11am EST -- 5000 total -- ETH 0.055 Pre/0.069 Pub\nInvaderverse -- https://www.invaderverse.com/ --  April 10th 10am EST -- 8788 total -- ETH 0.05\nSpace Walkers -- https://spcewalkers.io/ --  April 10th 10am EST -- 3720 total -- SOL 0.72\n",
-    day_after_tomorrow: "AILOVERSE -- https://www.ailoverse.com/ -- April 11th -- 5000 total -- ETH 0.075 pre/ 0.095 pub \nOtherSide Talents NFT -- https://othersidenft.io -- April 12th 1pm EST -- 4999 total -- SOL 0.8 pre/ 0.09 pub\nTacoTuesday -- https://tacotuesdaynft.io  -- April 11th 8pm EST -- 3333 total -- ETH 0.8\nMutant Alien Ape Yacht Club -- https://www.mutantalienapeyc.com -- April 12th 10:30am EST -- 10000 total -- ETH 0.06"
+    dayAfterTomorrow: "AILOVERSE -- https://www.ailoverse.com/ -- April 11th -- 5000 total -- ETH 0.075 pre/ 0.095 pub \nOtherSide Talents NFT -- https://othersidenft.io -- April 12th 1pm EST -- 4999 total -- SOL 0.8 pre/ 0.09 pub\nTacoTuesday -- https://tacotuesdaynft.io  -- April 11th 8pm EST -- 3333 total -- ETH 0.8\nMutant Alien Ape Yacht Club -- https://www.mutantalienapeyc.com -- April 12th 10:30am EST -- 10000 total -- ETH 0.06"
   },
-  news: "",
+  nftNews: "",
   others: "Walmart,Mcdonald\u2019s,and Thousands of Other Stores to Accept Bitcoin Via Strike\u2019s Lightning Network\n\nhttps://dailycoin.com/walmart-mcdonalds-and-thousands-of-other-stores-to-accept-bitcoin-via-strikes-lightning-network/"
   },
   {

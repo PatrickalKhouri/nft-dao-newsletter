@@ -1,8 +1,9 @@
 import React from 'react';
 
-const Investments = () => {
+const Investments = ({investmentsUpdates}) => {
+  
   return (<section>
-    <h5>Investments updates</h5>
+    <h5>Investments</h5>
   </section>
   )}
 

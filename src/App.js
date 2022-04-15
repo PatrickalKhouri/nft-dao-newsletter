@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Investments from './Investments'
+import Sections from './Sections'
 import moment from 'moment'
 import { useEffect, useState } from 'react';
 import news from './data'
@@ -15,8 +15,8 @@ function App() {
     if (news.date === today) {
       return news
     }
-  }
-
+  } 
+  
   const fetchTodaysNews = async () => {    
     setLoading(true)
     const todaysData = news.filter(filterDataByDate)
@@ -36,7 +36,7 @@ function App() {
 
   return <main>
     <h1>NFT Dao News Letter</h1>
-    <Investments/>
+    <Sections todaysNews={todaysNews[0]}/>
   </main>;
 }
 
