@@ -1,4 +1,4 @@
-const news = [
+export const news = [
   {
   id: '1',
   date: '15/04/2022',
@@ -9,7 +9,7 @@ const news = [
     doodles: "Doodles. so... lots of chatter in the space over the last week and speculation on valuations,IP purchases,collaborations,scandals\n\nwe dgaf about that noise and will cut through it to underpromise and overdeliver every single time. \n\nwe know our silence has been stressful for some but know that we have our eye on every single thing.\n\nin short,we will make the fucking biggest announcement of an announcement soon. give us the time to deliver. \n\n+ Global Brand Appearances this year:\nNFTNYC 2022\nHong Kong 2022\nVancouver 2022\nMiami 2022\n",
     jenkins: "",
     lil_babe: "",
-    rug_radio: "THE $RDAO TOKEN IS NOW LIVE!!!\n\nOFFICIAL AND ONLY WEBSITE TO CLAIM: https://app.syndicate.io/rugradio/claim\n\nOFFICIAL $RDAO CONTRACT ADDRESS: 0x6235CAEea7C515DaC14060Ec23a760090655F21b\n\n--------------------------\n\nRECORDING from the Spaces with Mel and Will Papper. \n\nhttps://twitter.com/farokh/status/1512198844913659907?s=21&t=pOQNb-8RCNZx2sF0yf8CkQ\n\n\n--------------------------\n\n\nTown Hall will most likely be held Monday,time TBA.",
+    rug_radio: "THE $RDAO TOKEN IS NOW LIVE!!!\n\nOFFICIAL AND ONLY WEBSITE TO CLAIM: https://app.syndicate.io/rugradio/claim<br>OFFICIAL $RDAO CONTRACT ADDRESS: 0x6235CAEea7C515DaC14060Ec23a760090655F21b\n--------------------------\n\nRECORDING from the Spaces with Mel and Will Papper. \n\nhttps://twitter.com/farokh/status/1512198844913659907?s=21&t=pOQNb-8RCNZx2sF0yf8CkQ\n\n\n--------------------------\n\n\nTown Hall will most likely be held Monday,time TBA.",
     superplastic: "",
     totem: "",
     zipcys: ""
@@ -49,4 +49,32 @@ const news = [
     },
 ]
 
-export default news
+export const titles = [
+  {
+    investments: "Investment Updates",
+    investmentsUpdates : {
+      anonymous : "Pyschedelics Anonymous",
+      bayc : "Bored Ape Yatch Club",
+      bomb : "Adam Bomb",
+      doodles : "Doodles",
+      jenkins : "Jenkins the Valet",
+      lil_babe: "Lil Babe Ape Club",
+      rug_radio : "Rug Radio",
+      superplastic : "Super Plastic NFT",
+      totem: "Totem Earth",
+      zipcys: "Zipcy's Supernormal"
+    },
+    security: "Security Issues/Updates",
+    mints: "Upcoming NFT drops/mints",
+    days : {
+      today : "Todays Mints",
+      tomorrow : "Tomorrows Mints",
+      dayAfterTomorrow : "Day after Tomorrow/Upcoming Mints"
+    },
+    news: "Nft/Dao news",
+    event: "Events",
+    media: "Media/Contents/Podcasts/Spaces",
+    did_you_know: "Did you know?",
+    others: "Others"
+  }
+]

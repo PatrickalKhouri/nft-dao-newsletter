@@ -1,13 +1,13 @@
 import React from 'react';
 import Investments from './Investments'
 
-const Sections = ({todaysNews}) => {
+const Sections = ({todaysNews, headers}) => {
   const {investmentsUpdates, security,  mints, nftNews, others} = todaysNews
-  console.log(investmentsUpdates)
+  const investmentsUpdatesHeader = headers.investmentsUpdates
 
   return (<section>
     <h5>Sections</h5>
-    <Investments investmentsUpdates={investmentsUpdates}/>
+    <Investments investmentsUpdates={investmentsUpdates} investmentsUpdatesHeader={investmentsUpdatesHeader}/>
   </section>
   )}
 

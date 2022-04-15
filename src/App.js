@@ -3,11 +3,12 @@ import './App.css';
 import Sections from './Sections'
 import moment from 'moment'
 import { useEffect, useState } from 'react';
-import news from './data'
+import { news, titles }from './data'
 
 function App() {
   const [todaysNews, settodaysNews] = useState([])
   const [loading, setLoading] = useState(true)
+  const [headers, setHeaders] = useState(titles)
 
   const today = moment().format("DD/MM/YYYY");
 
@@ -36,7 +37,7 @@ function App() {
 
   return <main>
     <h1>NFT Dao News Letter</h1>
-    <Sections todaysNews={todaysNews[0]}/>
+    <Sections todaysNews={todaysNews[0]} headers={headers[0]}/>
   </main>;
 }
 
