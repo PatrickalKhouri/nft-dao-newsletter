@@ -1,16 +1,16 @@
 import React from 'react';
 
-const Others = ({others}) => {
+const NftNews = ({nftNews}) => {
 
-  if (others === '') {
+  if (nftNews === '') {
     return null
   }
-  const othersArray = others.split('\n')
+  const nftNewsArray = nftNews.split('\n')
 
   return (
   <section>
     <h2> Nft and DAO news </h2>
-    {othersArray.map((line) => {
+    {nftNewsArray.map((line) => {
       return (
         <p>{line}</p>
       )
@@ -19,4 +19,4 @@ const Others = ({others}) => {
   )
 }
 
-export default Others
+export default NftNews
