@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/* eslint-disable react-hooks/exhaustive-deps */
 import './App.css';
 import Sections from './Sections'
 import moment from 'moment'
@@ -27,7 +27,7 @@ function App() {
 
   useEffect(() => {
     fetchTodaysNews();
-  }, [])
+  }, [fetchTodaysNews])
   
   if (loading) {
     return <main>
