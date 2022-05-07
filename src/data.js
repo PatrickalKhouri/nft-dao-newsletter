@@ -1,7 +1,7 @@
 export const news = [
   {
   id: '1',
-  date: '15/04/2022',
+  date: '07/05/2022',
   investmentsUpdates: { 
     anonymous: "",
     bayc: "HACK DO NOT MINT ANYTHING",
